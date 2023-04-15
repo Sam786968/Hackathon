@@ -1,0 +1,43 @@
+body {
+    background-color:white;
+  }
+  p {
+    color: black;
+  
+  }
+  h1 {
+    font-weight: bold;
+  } 
+  .directory {
+    list-style-type= none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    transform: rotate(270);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background: navy;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: fantasy;
+  }
+  
+  li a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white }
+  .box1 { 
+    background: white;
+    opacity: 0.5;
+  list-style-type: none;
+  font-family: fantasy;}
