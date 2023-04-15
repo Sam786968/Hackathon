@@ -1,13 +1,11 @@
 import random
+import csv
 import json
-from  volunteer import *
+# from  volunteer import *
+# from app import *
+from donors import *
 
-# with open('quotes.json') as f:
-#   data = json.load(f)
 
-# quote_list = []
-# for quote in data['quotes']:
-#   quote_list.append(quote['text'])
 
-# selected_quotes = random.sample(quote_list, 3)
-# output_str = ", ".join(selected_quotes)
+
+

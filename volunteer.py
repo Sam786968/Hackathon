@@ -3,7 +3,7 @@ import json
 import csv
 
 # This information will head the page. 
-information = "Project Headspace and Timing are dedicated to promoting mental health awareness and resources for military personnel, veterans, and their families. It offers educational resources and materials on mental health conditions commonly experienced by the military community, as well as information on how to access mental health care within the military and veteran healthcare systems. The site also provides advocacy and outreach services to help individuals connect with the resources and support they need. The organization behind the website is a 501(c)(3) non-profit that relies on donations to support their mission."
+information = "Volutneers are able to help"
        
 # Code that creates volunteer sheets.   
 csv_headers = ['Email', 'Name', 'Phone Number']
@@ -28,7 +28,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 email = ("samzajc@gmail.com")
-message = ("Here is your reciept.")
+message = (f"Here is the donor receipt for {name}.")
 msg = MIMEMultipart()
 msg['From'] = "nasolis600@gmail.com"
 msg['To'] = email
